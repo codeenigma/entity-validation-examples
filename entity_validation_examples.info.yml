@@ -1,0 +1,5 @@
+name: Entity Validation Examples
+type: module
+description: Illustrates how to add validation constraints to the entity creation process.
+core: 8.x
+package: EXAMPLES
