@@ -18,9 +18,9 @@ class ArticleLimitConstraintValidator extends ConstraintValidator {
       return;
     }
 
-    // If the entity already has an id, we're in an entity update operation
-    // instead of an entity creation operation. We don't want prevent
-    // existing existing articles from being updated.
+    // If the entity already has an id we're in an entity *update* operation
+    // instead of an entity *creation* operation. We don't want prevent
+    // existing articles from being updated.
     if ($entity->id()) {
       return;
     }
@@ -29,7 +29,7 @@ class ArticleLimitConstraintValidator extends ConstraintValidator {
       // Hardcoded for simplicity.
       $limit = 2;
 
-      // Figure out how many articles have already been created.
+      // Find out how many articles have already been created.
       $article_count = \Drupal::entityQuery('node')
         ->condition('type', 'article')
         ->count()

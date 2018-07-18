@@ -1,20 +1,20 @@
 # Entity Validation Examples
 
-This Drupal 8 module accompanies a Code Enigma blog post and illustrates 
-how to use the Drupal 8 Entity Validation API to add different validation 
+This Drupal 8 module accompanies a Code Enigma blog post.
+It illustrates how to use the Drupal 8 Entity Validation API to add different validation 
 constraints to the entity creation process.
 
 Blog post: [Drupal 8 Entity Validation API Examples](https://medium.com/)
 
-The examples are kept as short as possible and avoid anything that is 
-unrelated to the actual topic of entity validation.
+The examples are kept as short and avoid anything that is unrelated to the 
+actual topic of entity validation.
 
 ## Example 1: ArticleLimitConstraint
 This example limits the creation of nodes of the type article to a 
-specified, hardcoded number (2).
+specified number (2).
 
 In a real-world scenario this limit would probably be configured using 
-a configuration form, or specified with config variable in settings.php.
+a configuration form, or specified with a config variable in settings.php.
 
 The module does the following:
 
@@ -31,5 +31,5 @@ To test this functionality:
 * Create 2 articles.
 * Attempt to create a 3rd article and notice the error message.
 
-## Example 2?
+## Example 2
 Coming soon.

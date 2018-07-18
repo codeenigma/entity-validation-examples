@@ -5,22 +5,22 @@ namespace Drupal\entity_validation_examples\Plugin\Validation\Constraint;
 use Symfony\Component\Validator\Constraint;
 
 /**
- * Prevent article creation if threshold is reached.
+ * Prevent article creation if limit is reached.
  *
  * @Constraint(
  *   id = "ArticleLimit",
- *   label = @Translation("Prevent article creation if threshold is reached", context = "Validation"),
- *   type = "entity:node"
+ *   label = @Translation("Prevent article creation if limit is reached", context = "Validation"),
+ *   type = "entity"
  * )
  */
 class ArticleLimitConstraint extends Constraint {
 
   /**
-   * Message shown when trying create article and threshold is reached.
+   * Message shown when trying create article if limit is reached.
    *
    * @var string
    */
-  public $message = 'Article creation failed: threshold reached.';
+  public $message = 'Article creation failed: limit reached.';
 
   /**
    * {@inheritdoc}
