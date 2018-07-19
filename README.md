@@ -6,7 +6,7 @@ constraints to the entity creation process.
 
 Blog post: [Drupal 8 Entity Validation API Examples](https://medium.com/)
 
-The examples are kept as short and avoid anything that is unrelated to the 
+The examples are kept short and avoid anything that is not related to the 
 actual topic of entity validation.
 
 ## Example 1: ArticleLimitConstraint
