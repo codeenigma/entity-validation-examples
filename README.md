@@ -4,7 +4,7 @@ This Drupal 8 module accompanies a Code Enigma blog post.
 It illustrates how to use the Drupal 8 Entity Validation API to add different validation 
 constraints to the entity creation process.
 
-Blog post: [Drupal 8 Entity Validation API Examples](https://medium.com/)
+Blog post: [Drupal 8 Entity Validation API Examples](https://blog.codeenigma.com/introduction-to-drupal-8-entity-validation-f0aa37c1f9a3)
 
 The examples are kept short and avoid anything that is not related to the 
 actual topic of entity validation.
